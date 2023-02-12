@@ -12,7 +12,9 @@ const Overview = () => {
           <div className="pm-progress-container_first-image">
             <img src={leaf} />
           </div>
-          <div className="pm-progress-container_first-image-leaf"><img src={smallLeaf} /></div>
+          <div className="pm-progress-container_first-image-leaf">
+            <img src={smallLeaf} />
+          </div>
           <div className="pm-first-container__heading">9.6 AVERAGE SCORE</div>
           <div className="pm-first-container__sub-heading">
             Better than 86% of students
@@ -20,6 +22,7 @@ const Overview = () => {
         </div>
         <div className="pm-progress-container_second">hi</div>
       </div>
+      <div className="pm-overview__featured-courses">Featured Courses</div>
     </div>
   );
 };

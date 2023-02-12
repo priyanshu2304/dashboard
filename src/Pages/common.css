@@ -111,3 +111,9 @@ a {
   top: 21px;
   left: 29px;
 }
+
+.pm-overview__featured-courses {
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: 700;
+}
