@@ -15,7 +15,6 @@ const items = [
 ];
 
 const Layout = () => {
-  console.log("hey");
   return (
     <>
       <div className="pm-layout__container">

@@ -5,11 +5,9 @@ import "./index.css";
 // import logo from "./logo.svg";
 import "./Pages/common.css";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./Pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import Overview from "./Pages/Overview";
-import Test from "./Pages/Test";
 
 function App() {
   return (
@@ -18,7 +16,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Overview />} />
-            <Route path="/test" element={<Test />} />
           </Route>
   
         </Routes>
