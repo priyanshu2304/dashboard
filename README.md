@@ -1,3 +1,8 @@
+# Mock Design 
+
+This is the Mock Design ![alt text](https://github.com/priyanshu2304/dashboard/blob/main/src/assets/images/screen2.png)
+
+This is the Developed Design ![alt text](https://github.com/priyanshu2304/dashboard/blob/main/src/assets/images/screen1.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # dashboard
+
