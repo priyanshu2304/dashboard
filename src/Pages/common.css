@@ -44,7 +44,6 @@
     0px 2px 5px rgba(0, 19, 51, 0.1), 0px 0px 0px rgba(0, 19, 51, 0.1);
   border-radius: 35px;
   width: 1100px;
-  height: 500px;
 }
 
 a {
@@ -52,8 +51,11 @@ a {
 }
 
 .pm-overview__container {
-  padding: 35px;
   margin-left: 70px;
+}
+
+.pm-overview__container-first {
+  padding: 35px;
 }
 .pm-overview__heading {
   font-size: 48px;
@@ -86,6 +88,13 @@ a {
   width: 350px;
   background-color: #ffffff;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Panchang";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .pm-first-container__heading {
@@ -132,12 +141,79 @@ a {
 
 .table-container {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
   padding-top: 25px;
 }
 
-.table-heading{
-  color: #94918A;
+.table-heading {
+  color: #94918a;
   font-weight: 500;
   font-size: 20px;
+}
+
+.table-content-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.table-content-date {
+  font-weight: 500;
+  font-size: 17px;
+}
+.table-content-rate {
+  color: #ffc000;
+  font-weight: 500;
+  font-size: 17px;
+}
+.table-content-type {
+  background: #f7efd8;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-content-subHeading {
+  font-weight: 500;
+  font-size: 14px;
+  color: #94918a;
+}
+
+.pm-bio__container {
+  background: #f7f2dd;
+  border-radius: 0px 35px 35px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  flex-direction: column;
+}
+
+.pm-self-img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+
+.pm-self-name {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+.pm-self-designation {
+  font-weight: 500;
+  font-size: 20px;
+  color: #979ca5;
+  padding-top: 15px;
+}
+
+.line-seprator {
+  width: 260px;
+  height: 0px;
+  border: 1px solid #979ca5;
+  margin-top: 30px
 }
